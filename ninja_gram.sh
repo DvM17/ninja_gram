@@ -21,7 +21,7 @@ apt install nodejs -y
 apt install unzip -y
 apt install python -y
 unzip ninja_gram.zip
-python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
+python3 -m pip install --upgrade pip setuptools
 python3 setup.py install --user
 pip install -U instabot
 pip install clang
