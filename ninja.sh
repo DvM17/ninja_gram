@@ -20,16 +20,12 @@ apt install curl -y
 apt install nodejs -y
 apt install unzip -y
 apt install python -y
+pkg install -y python ndk-sysroot clang make \
+    libjpeg-turbo
 unzip ninja_gram.zip
 python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
 python3 setup.py install --user
 pip install -U instabot
-pip install clang
-pip install selenium
-pip install colorama
-pip install twine
-pip install urllib3
-pip install tox-travis codecov
 pip install instagram_private_api
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
