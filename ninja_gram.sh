@@ -22,11 +22,11 @@ apt install unzip -y
 apt install python -y
 apt install -y python ndk-sysroot clang make \
     libjpeg-turbo
-apt install lxml
-apt install libxml2
-apt install libxslt
 unzip ninja_gram.zip
 pip install --upgrade pip
+pip install lxml
+pip install libxml2
+pip install libxslt
 pip install twine
 pip install selenium
 pip install colorama
